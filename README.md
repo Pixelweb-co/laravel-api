@@ -34,5 +34,12 @@ Ejecuta: php artisan db:seed
 
 Ejecuta: php artisan serve
 
-La api queda escuchando solicitudes en la url: http://127.0.0.1:8000/api/validation
+La api queda escuchando solicitudes tipo POST en la url: http://127.0.0.1:8000/api/validation
 
+ejemplo de el payload : 
+
+{
+    "product_id":"1",
+    "quantity":"1",
+    "client_id":"1"
+}
