@@ -32,7 +32,10 @@ Ejecuta: php artisan migrate
 
 Ejecuta: php artisan db:seed
 
-Ejecuta: php artisan serve
+Ejecuta: php queue:work , en una terminal indepediente
+
+Ejecuta: php artisan serve , en una terminal indepediente
+
 
 La api queda escuchando solicitudes tipo POST en la url: http://127.0.0.1:8000/api/validation
 
